@@ -1,7 +1,7 @@
 export default function Navbar(){
     return(
         <>
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 flex flex-row ">
         <ul className="flex flex-row justify-item-center items-center">
             <li className="mr-10 hover:underline decoration-capx-green decoration-3">Bounties</li>
             <li className="mr-10 hover:underline decoration-capx-green decoration-3">Quest</li>
