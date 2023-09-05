@@ -1,6 +1,6 @@
-import React from 'react'
+import "@/styles/styles.css"
 
-const Background = () => {
+export default function  BackgroundWallpaper () {
   return (
     <div className="background-container">
       <div className="ellipse-16a"></div>
@@ -18,4 +18,3 @@ const Background = () => {
   )
 }
 
-export default Background

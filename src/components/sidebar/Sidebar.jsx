@@ -11,9 +11,9 @@ export default function SideBar(){
             </svg>
             </button> */}
 
-            <aside id="default-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
-            <div class="h-[600px] w-[150px] px-3 py-4 overflow-y-auto opacity-100 justify-items-center bg-capx-black">
-                <ul class="space-y-2 font-medium">
+            <aside id="default-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar" >
+            <div class="h-[600px] w-[150px] px-3 py-4 overflow-y-auto opacity-100 justify-items-center bg-capx-black" style={{ background: 'rgba(0, 0, 0, 0.1)' }}>
+                <ul class="space-y-2 font-medium flex flex-col  items-center " >
                     <li>
                         <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group ">
                         

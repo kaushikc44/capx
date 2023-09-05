@@ -1,0 +1,13 @@
+
+/* Style for the main container that holds the background and sidebar */
+.app-container {
+    position: relative;
+    width: 100vw; /* 100% viewport width */
+    height: 100vh; /* 100% viewport height */
+    overflow: hidden;
+  }
+  
+  /* Background styles */
+
+  
+  /* Sidebar styles */
