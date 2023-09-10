@@ -15,6 +15,7 @@ module.exports = {
       colors:{
         'capx-green':'#8dbc1a',
         'capx-black' : '#0e0e0e',
+        'button-black':'#1c1c1c',
       },
     },
   },

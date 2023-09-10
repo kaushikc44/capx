@@ -1,0 +1,6 @@
+.separator {
+    width: 1px;
+    height: 2px; /* Adjust the height as needed */
+    background-color: white; /* Color of the separator line */
+    margin: 0 10px; /* Adjust the margin as needed */
+}
