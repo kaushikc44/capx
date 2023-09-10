@@ -1,13 +1,26 @@
 
 /* Style for the main container that holds the background and sidebar */
+
+
+
 .app-container {
     position: relative;
-    width: 100vw; /* 100% viewport width */
-    height: 100vh; /* 100% viewport height */
-    overflow: hidden;
+    width: auto; /* 100% viewport width */
+    height: auto; /* 100% viewport height */
+    
   }
   
   /* Background styles */
 
-  
+.sidebar-navbar-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.centered-card {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%; /* Make the container take up the full height of app-container */
+}
   /* Sidebar styles */
