@@ -1,9 +1,15 @@
+"use client"
+
 // import Navbar from "@/components/Navbar/Navbar"
 import SideBar from "@/components/sidebar/Sidebar"
 import "../../styles/backgroundstyles.css"
 import BackgroundWallpaper from "@/components/Background/Background"
 import Card from "@/components/card/Card"
 import Navbar from "@/components/Navbar/Navbar"
+import axios from "axios"
+import { useState,useEffect } from "react"
+
+
 
 export default function CapxClub(){
     
@@ -16,6 +22,25 @@ export default function CapxClub(){
         { title: "Card 2", description: "Description 2", /* other properties */ },
         // Add more card data objects here
       ];
+
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        // Fetch Airtable data when the component mounts
+        const fetchData = async () => {
+          try {
+            const response = await axios.get('/api/airtable-data');
+            console.log("Fetching data")
+            console.log("Data is fetched",response)
+            setData(response.data.records);
+          } catch (error) {
+            console.error('Error fetching Airtable data:', error);
+          }
+        };
+    
+        fetchData();
+    }, []);
+      
 
     
         
