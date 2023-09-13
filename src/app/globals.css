@@ -17,11 +17,12 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: 
+    radial-gradient(circle at right, rgba(243, 193, 120, 1) 20%, rgba(192, 204, 92, 1) 20%),
+    radial-gradient(circle at left, rgba(41, 87, 250, 1) 20%, rgba(41, 87, 250, 1) 20%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100%;
+  background-position: top, bottom;
 }
+
